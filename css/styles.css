@@ -243,8 +243,8 @@ img {
   justify-content: space-evenly;
   list-style: none;
 }
+/*do zadania 4*/
 .obrazek{
-  background-color: red;
   background-image: url('/images/z3.png');
   background-size: cover;
   width:370px;
