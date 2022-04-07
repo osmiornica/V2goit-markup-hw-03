@@ -251,7 +251,7 @@ img {
   height:294px;
 } */
 
-.pictures-item2{background-color: red;}
+.pictures-item2{background-color: green;}
 
 .pictures-item:not(:last-child) {
 
