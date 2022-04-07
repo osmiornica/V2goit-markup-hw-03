@@ -243,13 +243,13 @@ img {
   justify-content: space-evenly;
   list-style: none;
 }
-/*do zadania 4*/
+/* do zadania 4
 .obrazek{
   background-image: url('/images/z3.png');
   background-size: cover;
   width:370px;
   height:294px;
-}
+} */
 
 .pictures-item:not(:last-child) {
 
