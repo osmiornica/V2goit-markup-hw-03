@@ -177,7 +177,7 @@ img {
 /*===== ATRIBUTES / 4 loremki =====*/
 
 .container {
-  width: 1600px;
+  width: 1200px;
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -250,6 +250,8 @@ img {
   width:370px;
   height:294px;
 } */
+
+.pictures-item2{background-color: red;}
 
 .pictures-item:not(:last-child) {
 
