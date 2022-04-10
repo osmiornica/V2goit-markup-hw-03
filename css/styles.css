@@ -9,7 +9,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color);
-
+ 
 }
 
 h1,
@@ -39,15 +39,20 @@ img {
 
 /*===== HEADER / NAGŁÓWEK =====*/
 
+
 .header .container {
   display: flex;
   align-items: center;
-  width: 1600px;
-  border-bottom: 1px solid #ECECEC;
+  justify-content:center;
+  width: 1200px;
+ 
+ 
 }
 
 .navigation {
   display: flex;
+  align-items: center;
+  justify-content:center;
 
 }
 
@@ -60,6 +65,7 @@ img {
 .address-list {
   display: flex;
   align-items: center;
+  justify-content:center;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -79,7 +85,6 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--sec-color-lblue);
-  margin-left: 215px;
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -128,6 +133,8 @@ img {
 .background .container {
   background-color: #2f303a;
   width: 1600px;
+  align-items: center;
+  justify-content:center;
 }
 
 .background-header {
@@ -181,18 +188,25 @@ img {
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
+  justify-content:center;
+ 
 }
 
-.atributes .container {
-  width: 1600px;
+.atributes {
+  width: 1200px;
+  align-items: center;
+  justify-content:center;
+
 }
 
 .atributes {
   display: flex;
-  justify-content: center;
-  margin-right: -30px;
-  list-style: none;
+    align-items: center;
+    justify-content:center;
+   list-style: none;
   margin-top: 94px;
+
 }
 
 .atributes-item:not(:last-child) {
@@ -201,6 +215,9 @@ img {
 }
 
 .atributes-title {
+  display: flex;
+  align-items: center;
+  justify-content:center;
   font-weight: 700;
   line-height: 1.142;
   text-transform: uppercase;
@@ -211,6 +228,8 @@ img {
 }
 
 .atributes-description {
+  align-items: center;
+  justify-content:center;
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.714;
@@ -240,23 +259,12 @@ img {
 
 .headerh2-pictures {
    display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content:space-between;
   list-style: none;
-}
-/* do zadania 4
-.obrazek{
-  background-image: url('/images/z3.png');
-  background-size: cover;
-  width:370px;
-  height:294px;
-} */
-
-.pictures-item:not(:last-child) {
-
-  margin-right: 30px;
   margin-bottom: 94px;
-
 }
+ 
 
 .team .container {
   background-color: #F5F4FA;
@@ -264,19 +272,15 @@ img {
 }
 
 
-
-
 .team-list {
-  display: flex;
-  flex-wrap: nowrap;
+  display: flex; 
   justify-content: center;
-  margin-left: -30px;
   list-style: none;
 }
 
 .team-list-item:not(:last-child) {
   margin-bottom: 94px;
-  margin-right: 30px;
+  margin-right: 35px;
   flex-basis: calc(100%/4-30px);
 }
 
@@ -320,6 +324,8 @@ img {
 .footer .container {
   background-color: #2f303a;
   width: 1600px;
+  align-items: center;
+  justify-content:center;
 }
 
 .footer-logo {
@@ -382,14 +388,17 @@ img {
 
 /*=====END FOOTER =====*/
 
+
+/* 2 strona */
 /*=====PORTFOLIO =====*/
 .portfolio-nav .container {
   width: 1600px;
 }
 
 .portfolio-nav-list {
-  display: flex;
-  justify-content: center;
+display: flex;
+align-items: center;
+justify-content:center;
   list-style: none;
 
 }
@@ -441,10 +450,11 @@ img {
 }
 
 .projects {
-  display: flex;
+display: flex;
+align-items: center;
+justify-content:center;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: center;
   margin-left: -30px;
   margin-top: -30px;
   flex-basis: calc(100% / 3 - 30px);
